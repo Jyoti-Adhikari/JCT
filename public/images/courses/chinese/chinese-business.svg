@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#083330"/>
+  <!-- Modern Skyline & Trade lines -->
+  <rect x="80" y="160" width="60" height="120" rx="4" fill="#0E5C57"/>
+  <rect x="160" y="120" width="70" height="160" rx="4" fill="#146B65"/>
+  <rect x="250" y="90" width="80" height="190" rx="4" fill="#0E5C57"/>
+  <rect x="350" y="140" width="70" height="140" rx="4" fill="#146B65"/>
+  <!-- Trade & Business Dialogue Node -->
+  <g transform="translate(190, 40)">
+    <rect width="120" height="44" rx="22" fill="#DC2626"/>
+    <text x="60" y="27" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">商务汉语</text>
+  </g>
+  <!-- Handshake & Briefcase Motif -->
+  <circle cx="250" cy="200" r="36" fill="#F59E0B"/>
+  <path d="M236 195 L264 195 L264 212 L236 212 Z M244 195 L244 190 L256 190 L256 195" stroke="#0B4D49" stroke-width="2" fill="none"/>
+</svg>
+

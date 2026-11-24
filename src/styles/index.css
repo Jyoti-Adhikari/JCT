@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  html[dir="rtl"] {
+    font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    @apply bg-brand-sand text-slate-800 antialiased min-h-screen flex flex-col;
+  }
+
+  /* Custom focus ring with brand teal */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-teal ring-offset-2;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #0B4D49;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #073330;
+}
+

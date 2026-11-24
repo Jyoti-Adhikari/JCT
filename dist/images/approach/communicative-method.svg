@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#F0F7F6"/>
+  <!-- Communicative interaction: Two avatars conversing -->
+  <g transform="translate(100, 70)">
+    <!-- Person 1 -->
+    <circle cx="60" cy="50" r="26" fill="#0B4D49"/>
+    <path d="M20 130 C20 95 50 90 60 90 C70 90 100 95 100 130 Z" fill="#0B4D49"/>
+    <!-- Speech bubble from 1 -->
+    <path d="M110 50 C110 30 140 30 160 30 C180 30 200 30 200 50 C200 70 170 70 150 70 L130 85 L135 70 C120 70 110 65 110 50 Z" fill="#F59E0B"/>
+    <circle cx="140" cy="50" r="3" fill="#0B4D49"/>
+    <circle cx="155" cy="50" r="3" fill="#0B4D49"/>
+    <circle cx="170" cy="50" r="3" fill="#0B4D49"/>
+  </g>
+  <g transform="translate(240, 70)">
+    <!-- Person 2 -->
+    <circle cx="120" cy="50" r="26" fill="#DC2626"/>
+    <path d="M80 130 C80 95 110 90 120 90 C130 90 160 95 160 130 Z" fill="#DC2626"/>
+    <!-- Speech bubble from 2 -->
+    <path d="M30 65 C30 45 60 45 80 45 C100 45 110 45 110 65 C110 85 90 85 70 85 L50 100 L55 85 C40 85 30 80 30 65 Z" fill="#146B65"/>
+    <circle cx="55" cy="65" r="3" fill="#FFFFFF"/>
+    <circle cx="70" cy="65" r="3" fill="#FFFFFF"/>
+    <circle cx="85" cy="65" r="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(130, 240)">
+    <rect width="240" height="38" rx="19" fill="#0B4D49"/>
+    <text x="120" y="24" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">COMMUNICATIVE IMMERSION</text>
+  </g>
+</svg>
+

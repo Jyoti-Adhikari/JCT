@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#083330"/>
+  <!-- Coffee Dallah & Cup silhouette representing Jordanian hospitality & daily talk -->
+  <g transform="translate(180, 70)">
+    <!-- Traditional Arabic coffee pot (Dallah) simplified -->
+    <path d="M50 140 L90 140 L85 90 L80 60 L60 60 L55 90 Z" fill="#F59E0B"/>
+    <!-- Spout -->
+    <path d="M55 75 Q35 60 40 45 Q50 60 58 70 Z" fill="#F59E0B"/>
+    <!-- Lid and Crescent -->
+    <path d="M60 60 Q70 40 80 60 Z" fill="#DC2626"/>
+    <!-- Handle -->
+    <path d="M85 80 Q110 100 85 130" stroke="#F59E0B" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Coffee Finjan (Cup) -->
+    <path d="M110 120 L130 120 L125 140 L115 140 Z" fill="#FFFFFF"/>
+    <!-- Steam -->
+    <path d="M120 110 Q116 100 122 90" stroke="#99F6E4" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Dialect Pill -->
+  <g transform="translate(125, 240)">
+    <rect width="250" height="36" rx="18" fill="#146B65"/>
+    <text x="125" y="23" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVANTINE / JORDANIAN COLLOQUIAL</text>
+  </g>
+</svg>
+

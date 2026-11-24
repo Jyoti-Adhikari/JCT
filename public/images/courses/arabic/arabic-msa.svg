@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#0B4D49"/>
+  <!-- Classic Islamic / Arab Geometric Lattice Backdrop -->
+  <g stroke="#146B65" stroke-width="1.5" opacity="0.6">
+    <polygon points="250,50 300,100 250,150 200,100"/>
+    <polygon points="250,150 300,200 250,250 200,200"/>
+    <polygon points="150,150 200,200 150,250 100,200"/>
+    <polygon points="350,150 400,200 350,250 300,200"/>
+  </g>
+  <!-- Central Calligraphic Emblem -->
+  <circle cx="250" cy="150" r="54" fill="#F0F7F6" stroke="#F59E0B" stroke-width="3"/>
+  <text x="250" y="166" font-family="'Cairo', sans-serif" font-size="44" font-weight="800" fill="#0B4D49" text-anchor="middle">فصحى</text>
+  <!-- Subtitle Badge -->
+  <g transform="translate(130, 240)">
+    <rect width="240" height="36" rx="18" fill="#DC2626"/>
+    <text x="120" y="23" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">MODERN STANDARD ARABIC (MSA)</text>
+  </g>
+</svg>
+

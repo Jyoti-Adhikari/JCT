@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#0B4D49"/>
+  <!-- Diplomatic & Institutional motif: Globe + Olive branch + Quill -->
+  <circle cx="250" cy="130" r="50" fill="#0E5C57" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Latitude / Longitude lines inside globe -->
+  <ellipse cx="250" cy="130" rx="25" ry="50" stroke="#99F6E4" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="200" y1="130" x2="300" y2="130" stroke="#99F6E4" stroke-width="1.5"/>
+  <!-- Olive Laurel / Branch accents -->
+  <path d="M190 150 C180 120 195 90 215 80" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M310 150 C320 120 305 90 285 80" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Bottom Ribbon -->
+  <g transform="translate(110, 240)">
+    <rect width="280" height="36" rx="18" fill="#FFFFFF"/>
+    <text x="140" y="23" font-family="'Inter', sans-serif" font-size="12" font-weight="800" fill="#0B4D49" text-anchor="middle">ARABIC FOR DIPLOMATS & NGOS</text>
+  </g>
+</svg>
+

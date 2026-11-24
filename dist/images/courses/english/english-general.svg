@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#0B4D49"/>
+  <!-- Dialogue bubbles -->
+  <path d="M120 120 C120 80 180 80 220 80 C270 80 320 80 320 120 C320 160 270 160 220 160 L180 190 L180 160 C140 160 120 150 120 120 Z" fill="#FFFFFF"/>
+  <text x="220" y="128" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#0B4D49" text-anchor="middle">Hello & Welcome</text>
+
+  <path d="M260 190 C260 160 300 160 330 160 C370 160 400 160 400 190 C400 220 370 220 330 220 L310 245 L310 220 C280 220 260 210 260 190 Z" fill="#F59E0B"/>
+  <text x="330" y="196" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#0B4D49" text-anchor="middle">Fluency</text>
+
+  <!-- CEFR tiers -->
+  <g transform="translate(100, 260)">
+    <rect width="60" height="28" rx="6" fill="#146B65"/>
+    <text x="30" y="18" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">A1-A2</text>
+    <rect x="70" y="0" width="60" height="28" rx="6" fill="#146B65"/>
+    <text x="100" y="18" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">B1-B2</text>
+    <rect x="140" y="0" width="60" height="28" rx="6" fill="#DC2626"/>
+    <text x="170" y="18" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">C1-C2</text>
+  </g>
+</svg>
+

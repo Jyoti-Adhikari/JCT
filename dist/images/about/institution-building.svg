@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="20" fill="#0B4D49"/>
+  <!-- Modern Geometric Architecture Silhouette -->
+  <path d="M100 340 L100 160 L240 120 L380 160 L380 340 Z" fill="#0E5C57"/>
+  <!-- Wing buildings -->
+  <path d="M60 340 L60 220 L100 200 L100 340 Z" fill="#083835"/>
+  <path d="M380 340 L380 200 L420 220 L420 340 Z" fill="#083835"/>
+  <path d="M420 340 L420 250 L540 230 L540 340 Z" fill="#062826"/>
+  <!-- Windows Matrix -->
+  <g fill="#99F6E4" opacity="0.6">
+    <rect x="130" y="160" width="28" height="36" rx="4"/>
+    <rect x="180" y="160" width="28" height="36" rx="4"/>
+    <rect x="230" y="160" width="28" height="36" rx="4"/>
+    <rect x="280" y="160" width="28" height="36" rx="4"/>
+    <rect x="330" y="160" width="28" height="36" rx="4"/>
+
+    <rect x="130" y="220" width="28" height="36" rx="4"/>
+    <rect x="180" y="220" width="28" height="36" rx="4"/>
+    <rect x="230" y="220" width="28" height="36" rx="4" fill="#FDE68A"/>
+    <rect x="280" y="220" width="28" height="36" rx="4"/>
+    <rect x="330" y="220" width="28" height="36" rx="4"/>
+  </g>
+  <!-- Main Entrance with Flame Red / Gold accents -->
+  <path d="M210 340 L210 270 Q240 250 270 270 L270 340 Z" fill="#F59E0B"/>
+  <rect x="230" y="280" width="20" height="60" fill="#0B4D49"/>
+  <!-- Center Flag / Emblem atop the building -->
+  <line x1="240" y1="120" x2="240" y2="80" stroke="#FFFFFF" stroke-width="2"/>
+  <polygon points="240,80 270,90 240,100" fill="#DC2626"/>
+  <!-- Ground base -->
+  <rect x="0" y="340" width="600" height="60" fill="#062220"/>
+  <!-- Institutional banner badge -->
+  <g transform="translate(180, 20)">
+    <rect width="240" height="42" rx="21" fill="#FFFFFF"/>
+    <text x="120" y="26" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#0B4D49" text-anchor="middle">JCT Campus & Learning Facility</text>
+  </g>
+</svg>
+

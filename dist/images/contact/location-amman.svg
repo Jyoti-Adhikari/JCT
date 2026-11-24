@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#0B4D49"/>
+  <!-- Map Grid and Road outlines -->
+  <path d="M50 160 Q200 130 350 170 T450 160" stroke="#0E5C57" stroke-width="12" fill="none"/>
+  <path d="M250 50 Q240 180 270 270" stroke="#0E5C57" stroke-width="12" fill="none"/>
+  <path d="M120 70 L380 250" stroke="#083835" stroke-width="8"/>
+  <path d="M100 240 L400 80" stroke="#083835" stroke-width="8"/>
+
+  <!-- Location Pin (Amman) -->
+  <g transform="translate(250, 140)">
+    <!-- Pin shadow -->
+    <ellipse cx="0" cy="18" rx="14" ry="6" fill="#042220"/>
+    <!-- Pin shape in Flame Red -->
+    <path d="M0 -36 C-18 -36 -18 -12 0 16 C18 -12 18 -36 0 -36 Z" fill="#DC2626"/>
+    <circle cx="0" cy="-20" r="7" fill="#FFFFFF"/>
+    <!-- Center yellow star -->
+    <polygon points="0,-23 1,-21 3,-21 1.5,-19.5 2,-17.5 0,-18.5 -2,-17.5 -1.5,-19.5 -3,-21 -1,-21" fill="#F59E0B"/>
+  </g>
+
+  <!-- Location Banner -->
+  <g transform="translate(130, 240)">
+    <rect width="240" height="42" rx="21" fill="#FFFFFF"/>
+    <text x="120" y="26" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#0B4D49" text-anchor="middle">Amman, Hashemite Kingdom of Jordan</text>
+  </g>
+</svg>
+

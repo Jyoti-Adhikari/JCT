@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" fill="none">
+  <!-- Brand Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Shield / Book base in Deep Teal -->
+    <rect x="0" y="4" width="72" height="72" rx="16" fill="#0B4D49"/>
+    <!-- Flame Red Accent Ribbon -->
+    <path d="M12 20 L36 10 L60 20 L60 48 C60 62 36 72 36 72 C36 72 12 62 12 48 Z" fill="#0E5C57" stroke="#F59E0B" stroke-width="2"/>
+    <!-- Stylized Open Book / Wings -->
+    <path d="M22 42 C28 36 34 37 36 40 C38 37 44 36 50 42 C44 48 38 47 36 44 C34 47 28 48 22 42 Z" fill="#FFFFFF"/>
+    <!-- Flame Torch / Red Accent at top -->
+    <path d="M36 22 C34 26 31 29 31 33 C31 36 33 38 36 38 C39 38 41 36 41 33 C41 29 38 26 36 22 Z" fill="#DC2626"/>
+    <!-- Yellow Star / Jordan 7-pointed star inspiration -->
+    <polygon points="36,26 37.5,29 41,29.5 38.5,31.8 39.2,35.2 36,33.5 32.8,35.2 33.5,31.8 31,29.5 34.5,29" fill="#F59E0B"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(96, 26)">
+    <!-- Main English Brand Name -->
+    <text x="0" y="24" font-family="'Inter', sans-serif" font-size="28" font-weight="800" fill="#0B4D49" letter-spacing="-0.5">JCT</text>
+    <text x="64" y="24" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#146B65" letter-spacing="-0.2">EDUCATION CENTER</text>
+    <circle cx="288" cy="18" r="4" fill="#DC2626" />
+    <!-- Arabic Subtitle / Brand Name -->
+    <text x="2" y="44" font-family="'Cairo', sans-serif" font-size="13" font-weight="600" fill="#64748B" letter-spacing="0.5">مركز جي سي تي للتعليم · الأردن</text>
+  </g>
+</svg>
+

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="20" fill="#F0F7F6"/>
+  <!-- Two interlaced circles: Mission (Teal) & Vision (Flame/Gold) -->
+  <circle cx="230" cy="200" r="130" fill="#0B4D49" fill-opacity="0.9"/>
+  <circle cx="370" cy="200" r="130" fill="#DC2626" fill-opacity="0.85"/>
+  <!-- Intersection -->
+  <path d="M300 95 C345 130 345 270 300 305 C255 270 255 130 300 95 Z" fill="#F59E0B" fill-opacity="0.85"/>
+
+  <!-- Left Side Label: Mission -->
+  <text x="170" y="195" font-family="'Inter', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">MISSION</text>
+  <text x="170" y="220" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#CCFBF1" text-anchor="middle">Linguistic Mastery</text>
+
+  <!-- Right Side Label: Vision -->
+  <text x="430" y="195" font-family="'Inter', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">VISION</text>
+  <text x="430" y="220" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#FEE2E2" text-anchor="middle">Global Opportunity</text>
+
+  <!-- Core Label -->
+  <text x="300" y="198" font-family="'Inter', sans-serif" font-size="13" font-weight="800" fill="#0B4D49" text-anchor="middle">IMPACT</text>
+</svg>
+

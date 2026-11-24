@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="20" fill="#FFFFFF" stroke="#0B4D49" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- Flowing Ribbon of Cultural Bridge -->
+  <path d="M50 250 C180 150 240 320 380 200 C460 120 520 220 550 180" stroke="#0B4D49" stroke-width="16" stroke-linecap="round"/>
+  <path d="M50 250 C180 150 240 320 380 200 C460 120 520 220 550 180" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" stroke-dasharray="24 12"/>
+
+  <!-- Culture 1: Jordanian / Arab Heritage -->
+  <g transform="translate(80, 80)">
+    <rect width="130" height="90" rx="14" fill="#F0F7F6" stroke="#0B4D49" stroke-width="1.5"/>
+    <circle cx="65" cy="35" r="18" fill="#0B4D49"/>
+    <text x="65" y="41" font-family="'Cairo', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">الأردن</text>
+    <text x="65" y="70" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0B4D49" text-anchor="middle">Arab Heritage</text>
+  </g>
+
+  <!-- Culture 2: Chinese Language & Heritage -->
+  <g transform="translate(390, 60)">
+    <rect width="130" height="90" rx="14" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+    <circle cx="65" cy="35" r="18" fill="#DC2626"/>
+    <text x="65" y="41" font-family="'Inter', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">中国</text>
+    <text x="65" y="70" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">East Asian Links</text>
+  </g>
+
+  <!-- Culture 3: Global English Community -->
+  <g transform="translate(235, 260)">
+    <rect width="140" height="90" rx="14" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5"/>
+    <circle cx="70" cy="35" r="18" fill="#F59E0B"/>
+    <text x="70" y="41" font-family="'Inter', sans-serif" font-size="13" font-weight="800" fill="#0B4D49" text-anchor="middle">GLOBAL</text>
+    <text x="70" y="70" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">World Discourse</text>
+  </g>
+</svg>
+

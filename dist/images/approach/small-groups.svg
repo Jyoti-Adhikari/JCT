@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <rect width="500" height="320" rx="16" fill="#0B4D49"/>
+  <!-- Seminar table setup with 5 seats representing small cohort -->
+  <ellipse cx="250" cy="160" rx="130" ry="60" fill="#0E5C57" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Center Instructor / Facilitator -->
+  <circle cx="250" cy="70" r="22" fill="#DC2626"/>
+  <!-- Students in circle around table -->
+  <circle cx="150" cy="110" r="18" fill="#FFFFFF"/>
+  <circle cx="120" cy="180" r="18" fill="#F59E0B"/>
+  <circle cx="250" cy="235" r="18" fill="#99F6E4"/>
+  <circle cx="380" cy="180" r="18" fill="#F59E0B"/>
+  <circle cx="350" cy="110" r="18" fill="#FFFFFF"/>
+  <!-- Center notebook/study icon -->
+  <rect x="235" y="145" width="30" height="24" rx="4" fill="#FFFFFF"/>
+  <!-- Bottom Pill -->
+  <g transform="translate(140, 265)">
+    <rect width="220" height="34" rx="17" fill="#083330" stroke="#146B65"/>
+    <text x="110" y="22" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#99F6E4" text-anchor="middle">MAX 8-12 STUDENTS / CLASS</text>
+  </g>
+</svg>
+

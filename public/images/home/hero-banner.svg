@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4D49"/>
+      <stop offset="50%" stop-color="#0E5C57"/>
+      <stop offset="100%" stop-color="#073330"/>
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+    <linearGradient id="yellowAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Decorative Architectural / Amman Hills & Modern Grid Silhouettes -->
+  <path d="M0 480 Q200 420 400 460 T800 440 L800 600 L0 600 Z" fill="#062523" opacity="0.7"/>
+  <path d="M0 510 Q250 470 500 500 T800 480 L800 600 L0 600 Z" fill="#041B19" opacity="0.9"/>
+
+  <!-- Subtle Geo Constellation / Global Network Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="160" y1="180" x2="380" y2="120"/>
+    <line x1="380" y1="120" x2="620" y2="190"/>
+    <line x1="380" y1="120" x2="480" y2="290"/>
+    <line x1="160" y1="180" x2="260" y2="320"/>
+    <line x1="480" y1="290" x2="620" y2="190"/>
+  </g>
+
+  <!-- Hub Nodes -->
+  <circle cx="160" cy="180" r="10" fill="#DC2626" opacity="0.8"/>
+  <circle cx="380" cy="120" r="14" fill="#F59E0B"/>
+  <circle cx="620" cy="190" r="10" fill="#2DD4BF"/>
+  <circle cx="260" cy="320" r="8" fill="#FBBF24" opacity="0.9"/>
+  <circle cx="480" cy="290" r="12" fill="#DC2626"/>
+
+  <!-- Language Badge: Chinese (中文) -->
+  <g transform="translate(110, 140)">
+    <rect width="110" height="42" rx="21" fill="#FFFFFF" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <circle cx="24" cy="21" r="14" fill="#DC2626"/>
+    <text x="24" y="26" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">中</text>
+    <text x="64" y="26" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#0B4D49">中文 HSK</text>
+  </g>
+
+  <!-- Language Badge: English -->
+  <g transform="translate(560, 150)">
+    <rect width="130" height="42" rx="21" fill="#FFFFFF" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <circle cx="24" cy="21" r="14" fill="#0B4D49"/>
+    <text x="24" y="26" font-family="'Inter', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">EN</text>
+    <text x="76" y="26" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#0B4D49">English C1</text>
+  </g>
+
+  <!-- Language Badge: Arabic (العربية) -->
+  <g transform="translate(430, 310)">
+    <rect width="130" height="42" rx="21" fill="#FFFFFF" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <circle cx="24" cy="21" r="14" fill="#F59E0B"/>
+    <text x="24" y="26" font-family="'Cairo', sans-serif" font-size="14" font-weight="800" fill="#0B4D49" text-anchor="middle">ض</text>
+    <text x="74" y="26" font-family="'Cairo', sans-serif" font-size="13" font-weight="700" fill="#0B4D49">العربية لغة</text>
+  </g>
+
+  <!-- Central Illustrated Element: Modern Learning Center & Open Gateway -->
+  <g transform="translate(240, 180)">
+    <!-- Main Center Pedestal / Book Core -->
+    <path d="M60 210 L160 160 L260 210 L160 260 Z" fill="#146B65" opacity="0.6"/>
+    <!-- Stack of Dynamic Structured Learning Blocks -->
+    <rect x="70" y="170" width="180" height="24" rx="8" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="70" y="170" width="8" height="24" rx="4" fill="#DC2626"/>
+    <rect x="85" y="136" width="150" height="24" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="85" y="136" width="8" height="24" rx="4" fill="#F59E0B"/>
+    <rect x="100" y="102" width="120" height="24" rx="8" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="100" y="102" width="8" height="24" rx="4" fill="#146B65"/>
+
+    <!-- Gateway Arch / Jordan Amphitheater & Modern Architecture inspiration -->
+    <path d="M110 90 Q160 40 210 90 L210 100 L110 100 Z" fill="url(#yellowAccent)"/>
+    <circle cx="160" cy="55" r="16" fill="#FFFFFF" opacity="0.9"/>
+    <!-- Flame Torch symbol -->
+    <path d="M160 46 C157 50 154 53 154 56 C154 60 156.5 62 160 62 C163.5 62 166 60 166 56 C166 53 163 50 160 46 Z" fill="#DC2626"/>
+  </g>
+
+  <!-- Bottom Floating Feature Cards -->
+  <g transform="translate(120, 440)">
+    <rect width="160" height="80" rx="14" fill="#083835" stroke="#167E77" stroke-width="1.5"/>
+    <text x="20" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#99F6E4">CERTIFIED STANDARDS</text>
+    <text x="20" y="56" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">HSK & CEFR Aligned</text>
+  </g>
+  <g transform="translate(320, 440)">
+    <rect width="160" height="80" rx="14" fill="#083835" stroke="#167E77" stroke-width="1.5"/>
+    <text x="20" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#FDE68A">BASED IN JORDAN</text>
+    <text x="20" y="56" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Amman Academic Hub</text>
+  </g>
+  <g transform="translate(520, 440)">
+    <rect width="160" height="80" rx="14" fill="#083835" stroke="#167E77" stroke-width="1.5"/>
+    <text x="20" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#FECACA">METHODOLOGY</text>
+    <text x="20" y="56" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Interactive Immersion</text>
+  </g>
+</svg>
+
